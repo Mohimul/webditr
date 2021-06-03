@@ -1,0 +1,166 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(nature.jpg);
+    background-position: absolute center;
+    background-size: cover;
+}
+
+ul li {
+    float: right;
+    list-style-type: none;
+    margin-top: 50px;
+    margin-right: 250px;
+}
+
+ul li a {
+    margin: 10px 10px;
+    border: 2px solid transparent;
+    color: beige;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.5s ease;
+    color: green;
+    border-radius: 10px;
+}
+
+ul li a:hover {
+    color: brown;
+    background-color: rgb(72, 7, 133);
+}
+
+#active {
+    color: rgb(157, 178, 202);
+    background-color: rgb(99, 9, 87);
+}
+
+h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+}
+
+.li a {
+    position: absolute;
+    top: 90%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    border: 3px solid transparent;
+    padding: 10px;
+    color: rgb(32, 184, 90);
+    border-radius: 23px;
+}
+
+.list a {
+    position: absolute;
+    top: 90%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    border: 3px solid transparent;
+    padding: 10px;
+    color: rgb(32, 184, 90);
+    border-radius: 23px;
+}
+
+.list a:hover {
+    color: rgb(247, 6, 187);
+    background-color: rgb(15, 228, 111);
+}
+
+.li a:hover {
+    color: rgb(247, 6, 187);
+    background-color: rgb(15, 228, 111);
+}
+
+.login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid gray;
+    height: 320px;
+    width: 300px;
+    border-radius: 23px;
+    text-align: center;
+}
+
+.login input {
+    outline: none;
+    text-align: center;
+    height: 30px;
+    width: 190px;
+    border-radius: 15px;
+    background: none;
+    transition: 0.25s;
+    color: black;
+}
+
+.login input:focus {
+    width: 280px;
+}
+
+.login h3 {
+    margin-top: 30px;
+    font-size: 30px;
+    color: rgb(207, 175, 236);
+    font-family: tahoma;
+}
+
+.login input::placeholder {
+    color: rgb(182, 216, 243);
+}
+
+.login button {
+    outline: none;
+    text-align: center;
+    height: 30px;
+    width: 90px;
+    border-radius: 15px;
+    background: none;
+    color: azure;
+    cursor: pointer;
+}
+
+.login button:hover {
+
+    background-color: rgb(194, 33, 33);
+}
+
+.login a {
+    color: rgb(255, 0, 157);
+}
+
+.login a:hover {
+    color: darkorange;
+}
+
+.mh p {
+    margin: 50px;
+    color: white;
+    border: 2px dotted ghostwhite;
+    width: 120px;
+    text-align: center;
+}
+
+.link a {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    color: beige;
+}
+
+.youtube a {
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    color: beige;
+}
